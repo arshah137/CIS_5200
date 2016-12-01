@@ -1,0 +1,122 @@
+*********************************************************************
+--IOWA LIQUOR SALES WHOLE DATA
+
+CREATE EXTERNAL TABLE IF NOT EXISTS iowa1(
+invoice STRING,
+year INT,
+dat STRING,
+storename STRING,
+city STRING,
+zip INT,
+catname STRING,
+vendorname STRING,
+itemname STRING,
+pack BIGINT,
+bottlevol BIGINT,
+bottlesold BIGINT,
+sale BIGINT,
+volume DECIMAL)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE LOCATION '/user/ashah36/iowafinal/'
+tblproperties ('skip.header.line.count'='1');
+
+
+--TIME SERIES AND FORECASTING OF DAILY SALES IN DOLLARS AND VOLUME FOR LIQUOR SALES IN IOWA
+
+--BY SALES IN DOLLARS
+
+CREATE TABLE everydaysale
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ","
+STORED AS TEXTFILE
+LOCATION "/user/ashah36/q9"
+AS
+select dat, sum(sale) from iowa1 group by dat order by dat;
+
+--BY SALES IN VOLUME
+
+create table everydayvol
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q10"
+as
+select dat, sum(volume) from iowa1 group by dat order by dat;
+
+
+--TOP 5 ALCOHOL CONSUMING CITIES IN IOWA
+
+create table top5sales1
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q1"
+as
+select city, sum(sale) as totalsale from iowa1 group by city order by totalsale desc limit 5;
+
+
+--TOP COMPANIES FOR 'BLENDED WHISKIES' ACCORDING TO DOLLAR SALES
+
+create table topwhisky
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q4"
+as
+select vendorname, sum(sale) as totalsales from iowa1 where catname = 'BLENDED WHISKIES' group by vendorname order by totalsales desc;
+
+
+--TOP DEALER STORE FOR 'DIAGEO AMERICAS' BLENDED WHISKIES
+
+create table topdiageo
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q8"
+as
+select city, storename, sum(sale) as s1 from iowa1 where vendorname = 'Diageo Americas' group by storename, city order by s1 desc limit 100;
+
+
+--HIGHEST SELLING STORES OF 'BLENDED WHISKIES'
+
+create table topstore
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q5"
+as
+select sum(sale) as totalsales, storename from iowa1 where catname = 'BLENDED WHISKIES' group by storename order by totalsales desc limit 50;
+
+
+--THE BEST CITIES IN IOWA FOR SELLING 'IMPORTED VODKA' ACCORDING TO SALES IN VOLUME AND DOLLARS
+
+create table impvodkasale
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q7"
+as
+select city, sum(sale) as s1, sum(volume) from iowa1 where catname='IMPORTED VODKA' group by city order by s1 desc;
+
+
+--CITIES WITH HIGHEST LIQUOR SALES ON HALLOWEEN IN 2013
+
+create table halloween
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q6"
+as
+select city, sum(sale) as totalsales from iowa1 where dat = '2013-10-31' group by city order by totalsales desc limit 5;
+
+
+--RELATION BETWEEN SKU SIZE AND BOTTLES SOLD FOR TEQUILA IN IOWA
+
+create table tequilasku
+row format delimited
+fields terminated by ","
+stored as textfile
+location "/user/ashah36/q2"
+as
+select bottlevol, sum(bottlesold) as totaltequila from iowa1 where catname = "TEQUILA" group by bottlevol order by totaltequila desc;
