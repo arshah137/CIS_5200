@@ -1,0 +1,101 @@
+City,Store Name,Sum of Sales
+DES MOINES,Hy-Vee #3 / BDI / Des Moines,1136716
+DES MOINES,Central City 2,647058
+WEST DES MOINES,Costco Wholesale #788,646188
+WINDSOR HEIGHTS,Sam's Club 6344 / Windsor Heights,554454
+CEDAR RAPIDS,Sam's Club 8162 / Cedar Rapids,488868
+BETTENDORF,Lot-A-Spirits,359519
+IOWA CITY,Hy-Vee Wine and Spirits / Iowa City,296060
+DAVENPORT,Sam's Club 8238 / Davenport,281369
+SIOUX CITY,Sam's Club 6432 / Sioux City,260831
+DES MOINES,Central City Liquor  Inc.,246583
+DAVENPORT,Hy-Vee Wine and Spirits #2,223454
+CEDAR RAPIDS,Benz Distributing,223366
+CORALVILLE,Costco Wholesale #1111 / Coralville,210772
+SIOUX CITY,Charlie's Wine and Spirits ,206890
+AMES,Sam's Club 6568 / Ames,198797
+CARROLL,Hy-Vee Food Store / Carroll,191885
+WEST DES MOINES,Hy-Vee Wine and Spirits / WDM,181662
+MT VERNON,Wilkie Liquors,179063
+WATERLOO,Sam's Club 6514 / Waterloo,175098
+COUNCIL BLUFFS,I-80 Liquor / Council Bluffs,163776
+MILFORD,Okoboji Avenue Liquor,162884
+DAVENPORT,Hy-Vee #3 Food and Drugstore,159995
+WEST DES MOINES,Hy-Vee #4 / WDM,156378
+CLINTON,Hy-Vee Food and Drug / Clinton,156278
+BURLINGTON,Hy-Vee #1044 / Burlington,150355
+CORALVILLE,Hy-Vee Wine and Spirits / Coralville,149898
+COUNCIL BLUFFS,Hy-Vee Food Store #2 / Council Bluff,143957
+WEST DES MOINES,Hy-Vee Food and Drug / Grand / WDM,140632
+CEDAR FALLS,Hillstreet News and Tobacco,139489
+URBANDALE,Hy-Vee / Urbandale,139383
+DES MOINES,Hy-Vee Food Store / Fleur / DSM,139160
+AMES,Hy-vee  #2 / Ames,138678
+BETTENDORF,Hy-Vee Wine and Spirits / Bettendorf,136297
+DUBUQUE,Sid's Beverage Shop,133566
+MARSHALLTOWN,Hy-Vee Food Store / Marshalltown,133465
+DAVENPORT,Hy-Vee #4 / Davenport,132802
+COUNCIL BLUFFS,Sam's Club 6472 / Council Bluffs,127706
+FORT DODGE,Hy-Vee Fort Dodge Wine and Spirits,127418
+ANKENY,Hy-Vee Wine and Spirits / Ankeny,120109
+SPIRIT LAKE,Hy-Vee Wine and Spirits / Spirit Lak,118487
+AMES,Hy-Vee Food Store #1 / Ames,116813
+DUBUQUE,Beecher Beverage,116350
+LEMARS,Hy-Vee Wine and Spirits / Lemars,115864
+KEOKUK,Keokuk Spirits,114736
+MUSCATINE,Hy-Vee Food Store / Muscatine,112101
+DENISON,Hy-Vee Wine and Spirits / Denison,107133
+JOHNSTON,Hy-Vee Food Store / Johnston,106144
+DUBUQUE,Hy-Vee Food Store / Dubuque,105717
+WATERLOO,Sycamore Convenience,104819
+MARION,Hy-Vee Food Store / Marion,104555
+SIOUX CITY,Hy-Vee Food Store #4 / Sioux City,104382
+CEDAR RAPIDS,Hy-Vee #7 / Cedar Rapids,104381
+DUBUQUE,Iowa Street Market  Inc.,102367
+ALTOONA,Hy-Vee Food Store / Altoona,99953
+CEDAR RAPIDS,Hy-Vee Food Store #3 / Cedar Rapids,99316
+IOWA CITY,Liquor Downtown / Iowa City,92552
+WINDSOR HEIGHTS,Hy-Vee / Windsor Heights,92456
+DUBUQUE,Sam's Club 4973 / Dubuque,91229
+WAUKEE,Hy-Vee / Waukee,90786
+MASON CITY,Hy-Vee Food Store #1 / Mason City,90148
+COUNCIL BLUFFS,Hy-Vee Food Store #1 / Council Bluff,89895
+SIOUX CITY,Hy-Vee Food Store #3 / Sioux City,89652
+NEWTON,Hy-Vee Food Store #1 / Newton,85857
+CEDAR FALLS,Hy-Vee Food Store / Cedar Falls,85716
+OTTUMWA,Quik Shop Foods / Four M In,84884
+CEDAR RAPIDS,Hy-Vee Food Store #1 / Cedar Rapids,84223
+GRIMES,Wal-Mart 5748 / Grimes,84150
+DES MOINES,Hy-Vee Drugstore / University / DSM,84112
+CLEAR LAKE,Quick Shop / Clear Lake,82775
+CEDAR RAPIDS,Hy-Vee Food Store #5 / Cedar Rapids,82420
+DAVENPORT,Hy-Vee #5 / Davenport,81921
+ANKENY,Wal-Mart 0892 / Ankeny,81815
+DES MOINES,Hy-Vee Food Store #3 / Des Moines,80737
+INDIANOLA,Hy-Vee Food Store / Indianola,80485
+MOUNT PLEASANT,Hy-Vee Food Store / Mount Pleasant,77417
+WATERLOO,Hy-Vee Wine and Spirits / Waterloo,77252
+IOWA FALLS,Hy-Vee Food Store / iowa Falls,76640
+BOONE,Hy-Vee Wine and Spirits / Boone,76173
+DUBUQUE,Hy-Vee #2 / Dubuque,75928
+CEDAR RAPIDS,Wal-Mart 2716 / Cedar Rapids,73753
+SIOUX CITY,Hy-Vee Food Store / Sioux City,73638
+WAVERLY,Hy-Vee / Waverly,72820
+ANKENY,Hy-Vee #2 / Ankeny,72624
+IOWA CITY,Wal-Mart 1721 / Iowa City,70357
+CEDAR FALLS,Wal-Mart 0753 / Cedar Fall,70066
+SPENCER,Hy-Vee Food Store / Spencer,69807
+ALTOONA,Wal-Mart 2764 / Altoona,69544
+SPIRIT LAKE,Wal-Mart 1415 / Spirit Lake,69065
+KEOKUK,Hy-Vee Food Store / Keokuk,68884
+CLEAR LAKE,Lake Liquors Wine and Spirits,68096
+PELLA,Hy-Vee Wine and Spirits / Pella,66831
+ALGONA,Hy-Vee Wine and Spirits / Algona,66264
+CHARLES CITY,Hy-Vee / Charles City,65721
+CORALVILLE,Wal-Mart 2827 / Coralville,65371
+DUBUQUE,Hy-Vee #3 / Dubuque,65006
+WATERLOO,Hy-Vee Food Store #3 / Waterloo,63939
+IOWA CITY,Hy-Vee Food Store #2 / Iowa City,63681
+PLEASANT HILL,HY-VEE / PLEASANT HILL,63545
+DES MOINES,Ingersoll Liquor and Beverage,63493
+HARLAN,Hy-Vee Wine and Spirits / Harlan,61799
